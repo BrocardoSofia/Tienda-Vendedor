@@ -1,0 +1,93 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Archivos de origen">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Archivos de encabezado">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Archivos de recursos">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Modelo">
+      <UniqueIdentifier>{b2a79dea-cbf2-4b4b-a016-522ffc9daf9d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modelo\Prendas">
+      <UniqueIdentifier>{8f9a125a-52dd-4d74-8a68-dc1efccd78a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modelo\Prendas\Tipo">
+      <UniqueIdentifier>{4bead720-2766-4c19-8b61-f29815473ea2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modelo\Cotizacion">
+      <UniqueIdentifier>{ce4d81dc-6678-4e13-85f4-96bafbb45c8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Modelo\Cotizacion\Fila">
+      <UniqueIdentifier>{a9d523c7-40e9-4c49-a5d1-8aeac64db7bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vista">
+      <UniqueIdentifier>{a43d5120-4ab0-45ea-845f-f099bb5993e3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Presentador">
+      <UniqueIdentifier>{1b248461-b143-41ec-bd35-51a677d0eeb5}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source.cpp">
+      <Filter>Archivos de origen</Filter>
+    </ClCompile>
+    <ClCompile Include="Tienda.cpp">
+      <Filter>Modelo</Filter>
+    </ClCompile>
+    <ClCompile Include="Cotizacion.cpp">
+      <Filter>Modelo\Cotizacion</Filter>
+    </ClCompile>
+    <ClCompile Include="ListaCotizacion.cpp">
+      <Filter>Modelo\Cotizacion\Fila</Filter>
+    </ClCompile>
+    <ClCompile Include="View.cpp">
+      <Filter>Vista</Filter>
+    </ClCompile>
+    <ClCompile Include="Presentador.cpp">
+      <Filter>Presentador</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Vendedor.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Tienda.h">
+      <Filter>Modelo</Filter>
+    </ClInclude>
+    <ClInclude Include="Prenda.h">
+      <Filter>Modelo\Prendas</Filter>
+    </ClInclude>
+    <ClInclude Include="Pantalon.h">
+      <Filter>Modelo\Prendas\Tipo</Filter>
+    </ClInclude>
+    <ClInclude Include="Camisa.h">
+      <Filter>Modelo\Prendas\Tipo</Filter>
+    </ClInclude>
+    <ClInclude Include="Cotizacion.h">
+      <Filter>Modelo\Cotizacion</Filter>
+    </ClInclude>
+    <ClInclude Include="NodoCotizacion.h">
+      <Filter>Modelo\Cotizacion\Fila</Filter>
+    </ClInclude>
+    <ClInclude Include="ListaCotizacion.h">
+      <Filter>Modelo\Cotizacion\Fila</Filter>
+    </ClInclude>
+    <ClInclude Include="View.h">
+      <Filter>Vista</Filter>
+    </ClInclude>
+    <ClInclude Include="Presentador.h">
+      <Filter>Presentador</Filter>
+    </ClInclude>
+    <ClInclude Include="IView.h">
+      <Filter>Vista</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
